@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'about' => 'pages#about'
   get 'contakti' => 'pages#contakti'
 
+  resources :posts
 end
